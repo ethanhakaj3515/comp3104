@@ -4,6 +4,9 @@ body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, B
 .card { width: min(100%, 680px); padding: clamp(32px, 8vw, 72px); border: 1px solid #334155; border-radius: 24px; background: rgba(15, 23, 42, .82); box-shadow: 0 28px 90px rgba(0,0,0,.3); }
 .eyebrow { margin: 0 0 24px; color: #8ce1c3; font-size: 12px; font-weight: 700; letter-spacing: .18em; }
 h1 { max-width: 540px; margin: 0; font-size: clamp(38px, 8vw, 64px); line-height: 1.04; letter-spacing: -.045em; }
+.student-details { display: flex; flex-wrap: wrap; gap: 12px 28px; margin-top: 22px; color: #f8fafc; font-size: 14px; }
+.student-details p { margin: 0; }
+.student-details span { display: block; margin-bottom: 4px; color: #8ce1c3; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .intro { max-width: 490px; margin: 22px 0 32px; color: #bac7d8; font-size: 18px; line-height: 1.65; }
 .button { display: inline-flex; align-items: center; gap: 12px; padding: 14px 18px; border-radius: 10px; background: #8ce1c3; color: #10211f; font-weight: 700; text-decoration: none; }
 .button:hover { background: #b2f0d9; }
