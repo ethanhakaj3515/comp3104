@@ -9,7 +9,6 @@ function App() {
         <h1 id="title">A single page app, ready to deploy</h1>
         <div className="student-details" aria-label="Student information">
           <p><span>Student Name</span> Ethan Hakaj</p>
-          <p><span>Student ID</span> 101465282</p>
         </div>
         <p className="intro">
           This React application is configured for a production build and GitHub Pages hosting.
