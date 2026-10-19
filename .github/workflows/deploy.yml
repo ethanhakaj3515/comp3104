@@ -24,6 +24,9 @@ jobs:
         run: npm ci
 
       - name: Build and publish GitHub Pages site
-        run: npm run deploy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
