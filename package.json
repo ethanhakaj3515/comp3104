@@ -2,7 +2,7 @@
     "name": "comp3104-lab05-spa",
     "version": "0.1.0",
     "private": true,
-    "homepage": ".",
+    "homepage": "https://ethanhakaj3515.github.io/comp3104",
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
